@@ -1,5 +1,11 @@
 # @ctrl-alt-delight/group-by
 
+## 1.0.2
+
+### Patch Changes
+
+- 823ef3b: Updated readme
+
 ## 1.0.1
 
 ### Patch Changes
