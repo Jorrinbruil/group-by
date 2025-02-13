@@ -1,5 +1,11 @@
 # @ctrl-alt-delight/group-by
 
+## 1.0.1
+
+### Patch Changes
+
+- 828ecd7: Updated readme and example
+
 ## 1.0.0
 
 ### Major Changes
