@@ -7,9 +7,9 @@
  *
  * const items: Person[] = [];
  *
+ * groupBy(items, 'name') // Returns: Map<string, Person[]>
  * groupBy(items, 'age') // Returns: Map<number, Person[]>
  * groupBy(items, 'married') // Returns: Map<boolean, Person[]>
- * groupBy(items, 'age') // Returns: Map<number, Person[]>
  * groupBy(items, item => item.address.street) // Returns: Map<string, Person[]>
  */
 export function groupBy<T, K extends keyof T = keyof T>(items: T[], keyOrGetter: K): Map<T[K], T[]>;

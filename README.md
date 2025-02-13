@@ -8,8 +8,8 @@ type Person = {name: string, age: number, married: boolean, address: {street: st
 
 const items: Person[] = [];
 
+groupBy(items, 'name') // Returns: Map<string, Person[]>
 groupBy(items, 'age') // Returns: Map<number, Person[]>
 groupBy(items, 'married') // Returns: Map<boolean, Person[]>
-groupBy(items, 'age') // Returns: Map<number, Person[]>
 groupBy(items, item => item.address.street) // Returns: Map<string, Person[]>
 ```
